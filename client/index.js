@@ -12,7 +12,7 @@ async function main() {
   // get the merkle root
   const merkleRoot = merkleTree.getRoot();
   // pass a name
-  const name = "Norman ";
+  const name = "Jason Murphy";
   // find the index of the name
   const index = niceList.findIndex((n) => n === name);
   // get the proof of the index
